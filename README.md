@@ -7,4 +7,4 @@ oggy looks ugly!!.
 
 ## Method
 
-The code doesn work according to the intention.
+The code does work according to the intention.
