@@ -4,31 +4,14 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Nooggy {
-    public static boolean namesMatch(String name)
-    {
-        String str_toremove="oggy";
-        if(name.length()<4)
-        {
-            return false;
-        }
-        
-        for(int i_name=0;i_name<4;i_name++)
-        {
-            if(name.charAt(i_name)!=str_toremove.charAt(i_name))
-            {
-                return false;
-            }
-        }
-        return true;
-        
-    }
+    
     public static void removeOggy(ArrayList<String> names) {
         for(int i_names=0;i_names<names.size();i_names++)
         {
-                if(namesMatch(names.get(i_names)))
+                String str_to_remove="oggy";
+                if(names.get(i_name).contains(str_to_remove))
                 {
-                    names.remove(i_names);
-                    i_names--;
+                    names.remove(i_name);
                 }
         }
         return;
