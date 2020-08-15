@@ -3,7 +3,7 @@ package remover;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Nooggy {
     public static boolean namesMatch(String name)
     {
         String str_toremove="oggy";
