@@ -9,7 +9,7 @@ public class Nooggy {
         for(int i_names=0;i_names<names.size();i_names++)
         {
                 String str_to_remove="oggy";
-                if(names.get(i_name).contains(str_to_remove))
+                if(names.get(i_names).contains(str_to_remove))
                 {
                     names.remove(i_name);
                 }
