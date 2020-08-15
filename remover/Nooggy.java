@@ -12,6 +12,7 @@ public class Nooggy {
                 if(names.get(i_names).contains(str_to_remove))
                 {
                     names.remove(i_names);
+                    i_names--;
                 }
         }
         return;
