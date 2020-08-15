@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: javac remover/Nooggy.java
     - name: Verify removal
-      run: java -classpath . remover.Main
+      run: java -classpath . remover.Nooggy
