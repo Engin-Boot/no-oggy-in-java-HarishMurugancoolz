@@ -14,7 +14,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
 
     steps:
     - uses: actions/checkout@v2
@@ -23,6 +23,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Build
-      run: javac remover/Main.java
+      run: javac remover/Nooggy.java
     - name: Verify removal
       run: java -classpath . remover.Main
